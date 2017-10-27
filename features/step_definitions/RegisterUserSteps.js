@@ -9,8 +9,8 @@ module.exports = function () {
 
     // register user scenario
     this.When(/^I click Signin button$/, function () {
-      //  pages.sharedPage.signInButton().click();
-      //  pages.registerUserPage.logoutButton().click();
+        pages.sharedPage.signInButton().click();
+        pages.registerUserPage.logoutButton().click();
         return pages.sharedPage.signInButton().click();
 
     });
