@@ -4,9 +4,12 @@ exports.config = {
   getPageTimeout: 30000,
   allScriptsTimeout: 200000,
   framework: 'custom',
+  directConnect: true,
   frameworkPath: require.resolve('protractor-cucumber-framework'),
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    shardTestFiles: false,
+    maxInstances: 1
   },
   onPrepare: function (config, capabilities) {
     browser.driver.manage().window().maximize();
