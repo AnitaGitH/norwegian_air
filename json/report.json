@@ -1,0 +1,1606 @@
+[
+  {
+    "description": "    As a user of Protractor\n    I should be able to use Cucumber\n    In order to run my E2E tests",
+    "elements": [
+      {
+        "id": "running-cucumber-with-protractor;choose-clothing",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Choose clothing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 3049873
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 497382
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to \"Men's Clothing, Shoes & Accessories\"",
+            "result": {
+              "status": "passed",
+              "duration": 348444
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:23"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;choose-clothing",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Choose clothing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 378469
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/womens/-/N-fxl?brandCode=classic&cm_re=lec-_-global-_-glbnv-women-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 261136
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to \"Women's Clothing, Shoes, Accessories\"",
+            "result": {
+              "status": "passed",
+              "duration": 131556
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:23"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;choose-clothing",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Choose clothing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 264691
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/kids?brandCode=classic&cm_re=lec-_-global-_-glbnv-kids-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 193975
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to \"Kids' Clothing - Toddler Clothes\"",
+            "result": {
+              "status": "passed",
+              "duration": 152889
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:23"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 2005726
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 366221
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-regular/-/N-fz6Zfoc?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-1-3-_-reg-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 395456
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Classic Navy/White Stripe\"",
+            "result": {
+              "status": "passed",
+              "duration": 739949
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 419950
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 354765
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-regular/-/N-fz6Zfoc?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-1-3-_-reg-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 198321
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Pale Lemon Windowpane\"",
+            "result": {
+              "status": "passed",
+              "duration": 184493
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 353185
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 1254714
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-regular/-/N-fz6Zfoc?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-1-3-_-reg-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 1997035
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Light French Blue\"",
+            "result": {
+              "status": "passed",
+              "duration": 369383
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 288000
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 642764
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-tall/-/N-fz6Zfoi?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-2-3-_-tall-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 233481
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Bright Sea Teal\"",
+            "result": {
+              "status": "passed",
+              "duration": 230320
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 269037
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 184889
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-tall/-/N-fz6Zfoi?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-2-3-_-tall-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 366221
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Brandywine\"",
+            "result": {
+              "status": "passed",
+              "duration": 188839
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 250074
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 184494
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-tall/-/N-fz6Zfoi?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-2-3-_-tall-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 268247
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Burgundy\"",
+            "result": {
+              "status": "passed",
+              "duration": 310913
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 798023
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 299851
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-big-and-tall/-/N-fz6Zfot?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-3-3-_-bigandtall-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 203061
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Blue Wave Windowpane\"",
+            "result": {
+              "status": "passed",
+              "duration": 185284
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 2175207
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 308148
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-big-and-tall/-/N-fz6Zfot?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-3-3-_-bigandtall-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 217284
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Clear Blue/White Stripe\"",
+            "result": {
+              "status": "passed",
+              "duration": 593777
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 285629
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/mens/-/N-fz6?brandCode=classic&cm_re=lec-_-global-_-glbnv-men-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 1022024
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/mens-big-and-tall/-/N-fz6Zfot?brandCode=classic&cm_re=lec-_-mns-_-tab-_-sb1-3-3-_-bigandtall-_-20161230-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 219259
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Surf Gray\"",
+            "result": {
+              "status": "passed",
+              "duration": 249679
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 281679
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/womens/-/N-fxl?brandCode=classic&cm_re=lec-_-global-_-glbnv-women-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 699259
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/womens-regular/-/N-fxlZfoc?brandCode=classic&cm_re=lec-_-wms-_-tab-_-sb1-1-4-_-reg-_-20170210-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 218074
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Red Fairisle\"",
+            "result": {
+              "status": "passed",
+              "duration": 469333
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 258765
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/womens/-/N-fxl?brandCode=classic&cm_re=lec-_-global-_-glbnv-women-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 175012
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/womens-regular/-/N-fxlZfoc?brandCode=classic&cm_re=lec-_-wms-_-tab-_-sb1-1-4-_-reg-_-20170210-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 172642
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Earthen Brown Houndstooth\"",
+            "result": {
+              "status": "passed",
+              "duration": 181333
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 236642
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/womens/-/N-fxl?brandCode=classic&cm_re=lec-_-global-_-glbnv-women-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 194765
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/womens-tall/-/N-fxlZfoi?brandCode=classic&cm_re=lec-_-wms-_-tab-_-sb1-4-4-_-tall-_-20170210-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 273383
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Scuba Blue\"",
+            "result": {
+              "status": "passed",
+              "duration": 178568
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 237432
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/womens/-/N-fxl?brandCode=classic&cm_re=lec-_-global-_-glbnv-women-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 216098
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/womens-tall/-/N-fxlZfoi?brandCode=classic&cm_re=lec-_-wms-_-tab-_-sb1-4-4-_-tall-_-20170210-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 196345
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Black/Fresh Orchid\"",
+            "result": {
+              "status": "passed",
+              "duration": 188839
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 258370
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/kids?brandCode=classic&cm_re=lec-_-global-_-glbnv-kids-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 628937
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/girls/-/N-kbgZg0f?brandCode=classic&cm_re=lec-_-lp-_-hr1-1-2-_-shop-girls-_-20170203-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 821728
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Hot Pink\"",
+            "result": {
+              "status": "passed",
+              "duration": 438122
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;shop-by-size-and-color",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Shop by size and color",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 1863899
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"/shop/kids?brandCode=classic&cm_re=lec-_-global-_-glbnv-kids-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 1782516
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose \"/shop/girls/-/N-kbgZg0f?brandCode=classic&cm_re=lec-_-lp-_-hr1-1-2-_-shop-girls-_-20170203-_-cta\"",
+            "result": {
+              "status": "passed",
+              "duration": 239407
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change \"Fuchsia Pink\"",
+            "result": {
+              "status": "passed",
+              "duration": 194370
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-shipping-country",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Change shipping country",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 1831504
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Ship To",
+            "result": {
+              "status": "passed",
+              "duration": 280098
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change shipping \"BH\"",
+            "result": {
+              "status": "passed",
+              "duration": 572049
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:50"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-shipping-country",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Change shipping country",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 389135
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Ship To",
+            "result": {
+              "status": "passed",
+              "duration": 199111
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change shipping \"AL\"",
+            "result": {
+              "status": "passed",
+              "duration": 507654
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:50"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-shipping-country",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Change shipping country",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 313283
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Ship To",
+            "result": {
+              "status": "passed",
+              "duration": 179753
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change shipping \"AD\"",
+            "result": {
+              "status": "passed",
+              "duration": 381629
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:50"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-shipping-country",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Change shipping country",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 218864
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Ship To",
+            "result": {
+              "status": "passed",
+              "duration": 173431
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change shipping \"AG\"",
+            "result": {
+              "status": "passed",
+              "duration": 392296
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:50"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-shipping-country",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Change shipping country",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 319604
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Ship To",
+            "result": {
+              "status": "passed",
+              "duration": 175407
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to change shipping \"AW\"",
+            "result": {
+              "status": "passed",
+              "duration": 383604
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:50"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;wrong-account-info-on-login",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Wrong account info on login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 236642
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on My account",
+            "result": {
+              "status": "passed",
+              "duration": 223605
+            },
+            "line": 58,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I write wrong account info",
+            "result": {
+              "status": "passed",
+              "duration": 760098
+            },
+            "line": 59,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get error message",
+            "result": {
+              "status": "passed",
+              "duration": 315654
+            },
+            "line": 60,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:73"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-brand",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "Change brand",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 279703
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Lands' End \"http://www.landsend.com/canvas-by-lands-end?cm_re=glb-_-global-_-hdr-modern-_-20160316-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 498963
+            },
+            "line": 64,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to that \"Lands' End Canvas\" \"Women's & Men's Apparel\"",
+            "result": {
+              "status": "passed",
+              "duration": 247704
+            },
+            "line": 65,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:90"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-brand",
+        "keyword": "Scenario",
+        "line": 70,
+        "name": "Change brand",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 244543
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Lands' End \"http://www.landsend.com/lands-end-sport?cm_re=glb-_-global-_-hdr-sport-_-20160525-_-txt\"",
+            "result": {
+              "status": "passed",
+              "duration": 167506
+            },
+            "line": 64,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to that \"Lands’ End Sport\" \"Athleisure & Activewear for Men and Women\"",
+            "result": {
+              "status": "passed",
+              "duration": 116938
+            },
+            "line": 65,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:90"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;change-brand",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "Change brand",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 224790
+            },
+            "line": 63,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Lands' End \"https://business.landsend.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1173727
+            },
+            "line": 64,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:83"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to that \"Lands' End Business\" \"Corporate Logo Apparel & Business Uniforms\"",
+            "result": {
+              "status": "passed",
+              "duration": 127210
+            },
+            "line": 65,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:90"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "running-cucumber-with-protractor;order-tracking",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "Order tracking",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to \"https://www.landsend.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 292740
+            },
+            "line": 74,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Track My Order under Help",
+            "result": {
+              "status": "passed",
+              "duration": 1611060
+            },
+            "line": 75,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to enter order details",
+            "result": {
+              "status": "passed",
+              "duration": 682270
+            },
+            "line": 76,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should get error message if details are wrong",
+            "result": {
+              "status": "passed",
+              "duration": 341333
+            },
+            "line": 77,
+            "match": {
+              "location": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\step_definitions\\landsEndStepDef.js:125"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "running-cucumber-with-protractor",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Running Cucumber with Protractor",
+    "tags": [],
+    "uri": "C:\\Users\\psimanic\\.jenkins\\workspace\\Demo\\features\\landsEnd.feature"
+  }
+]
