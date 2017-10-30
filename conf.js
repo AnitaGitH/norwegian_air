@@ -31,7 +31,7 @@ exports.config = {
     global.helper = new helper();
     global.username;
 
-    var MailListener = require("mail-listener2");
+ /**   var MailListener = require("mail-listener2");
     
     var mailListener = new MailListener({
      // username: "username",
@@ -83,7 +83,7 @@ exports.config = {
     
 
 
-    global.mailListener = mailListener;
+    global.mailListener = mailListener;*/
 
     
  
