@@ -91,6 +91,7 @@ var HomeNorvegianActions = function () {
     };
     this.clickConfirmAndPay = function () {
         browser.sleep(2000);
+       waitHelper.waitForElementToBeVisible(pages.homeNorvegianPage.confAndPay(), 5000);
         return pages.homeNorvegianPage.confAndPay().click();
     };
     
