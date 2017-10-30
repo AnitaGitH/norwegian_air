@@ -29,6 +29,7 @@ var RegisterUserActions = function () {
         pages.registerUserPage.phoneCountryButton().click();
         pages.registerUserPage.allPhoneCountries().get(27).click();
         pages.registerUserPage.phoneField().sendKeys(phoneNum); 
+        waitHelper.waitForElementToBeVisible(pages.sharedPage.saveButton(), 5000);
         return pages.registerUserPage.saveButton().click();
   
        
