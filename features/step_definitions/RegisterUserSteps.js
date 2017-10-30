@@ -24,8 +24,8 @@ module.exports = function () {
         return actions.registerUserActions.createNewUser(username, "password123", "password123", "firstName", "lastName", "Fra Matije Divkovica", "71000", "Sarajevo", phoneNum); 
     });
     this.Then(/^I should be able to see my profile page$/, function () {
-       // browser.sleep(2000);
-      waitHelper.waitForElementToBeVisible(pages.registerUserPage.registerConfirm(), 5000);
+        browser.sleep(4000);
+      //waitHelper.waitForElementToBeVisible(pages.registerUserPage.registerConfirm(), 5000);
          expect(pages.registerUserPage.registerConfirm().getText()).to.eventually.equal("My Travels"); 
     });
     this.Then(/^I should Logout$/, function () {
