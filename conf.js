@@ -1,8 +1,8 @@
 //cucumber.conf.js
 exports.config = {
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
-  getPageTimeout: 30000,
-  allScriptsTimeout: 200000,
+  getPageTimeout: 60000,
+  allScriptsTimeout: 500000,
   framework: 'custom',
   directConnect: true,
   frameworkPath: require.resolve('protractor-cucumber-framework'),
