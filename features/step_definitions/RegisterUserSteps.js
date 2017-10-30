@@ -15,6 +15,7 @@ module.exports = function () {
 
     });
     this.When(/^I click register button$/, function () {
+        browser.sleep(2000);
         return actions.registerUserActions.clickRegisterLink();
     });
     this.When(/^I enter all credentials$/, function () {
