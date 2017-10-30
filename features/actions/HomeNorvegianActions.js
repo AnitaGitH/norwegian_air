@@ -36,6 +36,7 @@ var HomeNorvegianActions = function () {
         return pages.homeNorvegianPage.actualDate().get(1).click();
     };
     this.clickSearchAndBook = function () {
+        waitHelper.waitForElementToBeVisible(pages.homeNorvegianPage.searchButton(), 5000);
         return pages.homeNorvegianPage.searchButton().click();
     };
     this.clickOutboundFares = function () {
