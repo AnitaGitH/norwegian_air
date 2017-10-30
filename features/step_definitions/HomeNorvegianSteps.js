@@ -64,7 +64,7 @@ module.exports = function () {
          browser.sleep(5000);
           var warnMessage = element(by.xpath('//*[contains(text(),"Credit card was not authorized. Make sure all fields are filled in correctly.")]'));
           waitHelper.waitForElementToBeVisible(warnMessage, 5000);
-          return expect(warnMessage.getText()).to.eventually.equal("Credit card was not authorized. Make sure all fields are filled in correctly."); 
+          return expect(warnMessage.getText()).to.eventually.equal("Cxredit card was not authorized. Make sure all fields are filled in correctly."); 
           });
      
 };
