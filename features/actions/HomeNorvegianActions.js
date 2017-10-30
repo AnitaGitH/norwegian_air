@@ -80,7 +80,7 @@ var HomeNorvegianActions = function () {
         pages.homeNorvegianPage.expiryYear().click();
         browser.sleep(1000);
         pages.homeNorvegianPage.expiryYearNumber().get(5).click();
-        waitHelper.waitForElementToBeVisible(pages.homeNorvegianPage.verificationCode(), 5000);
+        //waitHelper.waitForElementToBeVisible(pages.homeNorvegianPage.verificationCode(), 5000);
         return pages.homeNorvegianPage.verificationCode().sendKeys(verificationCode);
 
     };
