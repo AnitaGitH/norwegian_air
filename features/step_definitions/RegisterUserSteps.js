@@ -25,7 +25,7 @@ module.exports = function () {
     });
     this.Then(/^I should be able to see my profile page$/, function () {
         browser.sleep(4000);
-      //waitHelper.waitForElementToBeVisible(pages.registerUserPage.registerConfirm(), 5000);
+      waitHelper.waitForElementToBeVisible(pages.registerUserPage.registerConfirm(), 5000);
          expect(pages.registerUserPage.registerConfirm().getText()).to.eventually.equal("My Travels"); 
     });
     this.Then(/^I should Logout$/, function () {
