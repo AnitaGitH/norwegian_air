@@ -23,12 +23,12 @@ var RegisterUserActions = function () {
         pages.registerUserPage.postalField().sendKeys(postalCode);
         pages.registerUserPage.cityField().sendKeys(city);
         pages.registerUserPage.countryButton().click();
-        waitHelper.waitForElementToBeVisible(pages.registerUserPage.allCountries(), 5000);
+        //waitHelper.waitForElementToBeVisible(pages.registerUserPage.allCountries(), 5000);
         pages.registerUserPage.allCountries().get(28).click();
         pages.registerUserPage.genderButton().click();
         pages.registerUserPage.allGenders().get(2).click();
         pages.registerUserPage.phoneCountryButton().click();
-        waitHelper.waitForElementToBeVisible(pages.registerUserPage.allPhoneCountries(), 5000);
+       // waitHelper.waitForElementToBeVisible(pages.registerUserPage.allPhoneCountries(), 5000);
         pages.registerUserPage.allPhoneCountries().get(27).click();
         pages.registerUserPage.phoneField().sendKeys(phoneNum); 
         waitHelper.waitForElementToBeVisible(pages.registerUserPage.saveButton(), 5000);
